@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 4;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return str
+  return str;
 }
 
 function suma(x, y) {
@@ -43,7 +43,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var resultado = x+y;
+  var resultado = x-y;
   return resultado;
 
 }
@@ -220,7 +220,7 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  var area=(ancho*altura);
+  var area=(ancho*alto);
   return area;
 }
 
@@ -257,12 +257,12 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra=== 'a' || letra=== 'e' || letra=== 'i' || letra=== 'o' || letra=== 'u' ){
-    console.log("Es vocal");
+    return "Es vocal";
   }else{
     if(letra.length>1){
-      console.log("Dato incorrecto");
+      return "Dato incorrecto";
     }else{
-      console.log("Dato incorrecto");
+      return "Dato incorrecto";
     }
   }
 }
