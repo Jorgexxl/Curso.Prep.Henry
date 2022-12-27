@@ -61,10 +61,17 @@ function filter(array) {
   //Tu código:
   const new_array=[];
   
-  array.map(function(elem){
+  /*array.map(function(elem){
     if(elem.charAt(0)==='a'){
       new_array.push(elem);
     }
+  });
+  return new_array;
+  */
+  array.forEach(function(elem){
+  if(elem.charAt(0)==='a'){
+    new_array.push(elem);
+  }
   });
   return new_array;
 }
