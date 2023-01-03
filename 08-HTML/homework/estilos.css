@@ -1,0 +1,34 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+h1{
+    color: brown;
+    justify-content: center;
+}
+h3{
+    justify-content: center;
+}
+h4{
+    justify-content: center;
+}
+img{
+    width: 200px;
+    justify-items: center;
+}
+
+#thirdDiv{
+    height: 500px;
+    width: 600px;
+    background-color: blueviolet;
+    padding: 50px;
+    border: 5px red solid;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+
