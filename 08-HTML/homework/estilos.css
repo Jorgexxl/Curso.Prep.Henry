@@ -18,7 +18,9 @@ img{
     width: 200px;
     justify-items: center;
 }
-
+a{
+    display: block;
+}
 #thirdDiv{
     height: 500px;
     width: 600px;
